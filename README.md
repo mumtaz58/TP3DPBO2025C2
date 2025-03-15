@@ -6,7 +6,7 @@ Saya Armelia Zahrah Mumtaz dengan NIM 2300801 berjanji mengerjakan TP3 DPBO deng
 
 ![tp4](https://github.com/user-attachments/assets/6f180387-8e75-401e-8167-cce27f36859c)
 
-**Struktur Kelas dan Pewarisan:**
+**1. Struktur Kelas dan Pewarisan:**
 
 
 Kelas dasar adalah Komponen yang memiliki atribut merk dan nama serta method displayInfo() virtual
@@ -32,7 +32,7 @@ Kelas Komputer adalah kelas komposit yang berisi objek dari kelas-kelas di atas
 
 
 
-**Penjelasan Alur Program**
+**2. Penjelasan Alur Program**
 
 
 Program ini dimulai dengan membuat kelas dasar bernama Komponen. Kelas ini memiliki atribut merk dan nama, serta method untuk mengatur dan mengambil nilai atribut tersebut. 
