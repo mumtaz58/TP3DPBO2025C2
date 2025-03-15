@@ -8,6 +8,7 @@ Saya Armelia Zahrah Mumtaz dengan NIM 2300801 berjanji mengerjakan TP2 DPBO deng
 
 **Struktur Kelas dan Pewarisan:**
 
+
 Kelas dasar adalah Komponen yang memiliki atribut merk dan nama serta method displayInfo() virtual
 Kelas turunan dari Komponen adalah:
 
@@ -29,7 +30,9 @@ Kelas Monitor berdiri sendiri dan bukan turunan dari Komponen
 
 Kelas Komputer adalah kelas komposit yang berisi objek dari kelas-kelas di atas
 
+
 **Penjelasan Alur Program**
+
 
 Program ini dimulai dengan membuat kelas dasar bernama Komponen. Kelas ini memiliki atribut merk dan nama, serta method untuk mengatur dan mengambil nilai atribut tersebut. 
 
