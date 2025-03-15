@@ -39,6 +39,8 @@ Program ini dimulai dengan membuat kelas dasar bernama Komponen. Kelas ini memil
 Selain itu, ada juga method displayInfo() yang bisa diubah oleh kelas turunannya.
 Dari kelas Komponen, dibuat beberapa kelas turunan seperti Cpu, Ram, Harddrive, GPU, Motherboard, PowerSupply, dan Casing. Setiap kelas ini mewarisi atribut dasar dari 
 Komponen, namun juga menambahkan atribut khusus sesuai fungsinya. Misalnya, Cpu memiliki atribut tambahan seperti jumlah core dan kecepatan GHz.
+
+
 Selain itu, ada juga kelas Monitor, tetapi kelas ini tidak mewarisi Komponen karena monitor bukan bagian dari komponen internal komputer. Monitor memiliki atribut sendiri, 
 seperti merk, model, ukuran, resolusi, dan refresh rate.
 Setelah itu, program mendefinisikan kelas Komputer, yang berfungsi sebagai wadah untuk semua komponen. Komputer menyimpan objek dari beberapa komponen utama seperti Cpu, 
@@ -64,5 +66,7 @@ Casing: NZXT H510
 
 Setelah semua komponen dibuat, program menggabungkannya menjadi satu objek Komputer bernama PC Gaming. Untuk melengkapi, program menambahkan satu RAM Kingston FURY dan satu 
 hard drive Samsung 980 Pro menggunakan method addRam() dan addHarddrive().
+
+
 Terakhir, program memanggil displayInfo() dari objek Komputer. Method ini akan menampilkan spesifikasi lengkap PC Gaming, dengan cara memanggil displayInfo() dari setiap 
 komponen yang sudah dimasukkan. Hasil akhirnya adalah tampilan informasi lengkap tentang komputer yang telah dikonfigurasi.
